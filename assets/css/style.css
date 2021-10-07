@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   height: 100vh;
-  background: url("../img/git_Profile.jpeg") top center;
+  background: url("../img/mehedibg.jpg") top center;
   background-size: cover;
 }
 #hero:before {
