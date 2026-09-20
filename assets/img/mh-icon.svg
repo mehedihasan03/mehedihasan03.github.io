@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Mehedi Hasan M monogram</title>
+  <defs>
+    <linearGradient id="mh-gradient" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.52" stop-color="#134e5e"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="url(#mh-gradient)"/>
+  <path fill="#fff" d="M13 47V17h8l11 15 11-15h8v30h-8V30L32 45 21 30v17h-8z"/>
+</svg>
