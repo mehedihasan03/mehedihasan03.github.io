@@ -27,9 +27,9 @@
   }
   const observer = new IntersectionObserver(entries => entries.forEach(entry => {
     if (entry.isIntersecting) {
-      window.setTimeout(() => entry.target.classList.add("visible"), 180);
+      entry.target.classList.add("visible");
       observer.unobserve(entry.target);
     }
-  }), { threshold: .18, rootMargin: "0px 0px -8% 0px" });
+  }), { threshold: .12 });
   document.querySelectorAll(".reveal").forEach(item => observer.observe(item));
 })();
