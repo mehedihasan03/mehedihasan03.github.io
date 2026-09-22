@@ -1,91 +1,168 @@
-# Mehedi Hasan
+<style>
+@page { size: Letter; margin: 0.55in 0.62in; }
+html, body { margin: 0; padding: 0; }
+body {
+  color: #000;
+  font-family: Calibri, Carlito, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.18;
+}
+h1 {
+  color: #0e4661;
+  font-size: 20.5pt;
+  line-height: 1.05;
+  margin: 0 0 1pt;
+  text-align: center;
+}
+h2 {
+  color: #0e4661;
+  font-size: 12.5pt;
+  line-height: 1.15;
+  margin: 7pt 0 3pt;
+}
+h3 {
+  color: #156082;
+  font-size: 12.5pt;
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 4pt 0 1pt;
+}
+p { margin: 0 0 2pt; }
+ul { margin: 0 0 4pt 0.28in; padding-left: 0.18in; }
+li { margin: 0 0 0.4pt; padding-left: 0.02in; }
+a { color: #1154cc; text-decoration: none; }
+hr { border: 0; border-top: 0.5pt solid #a6a6a6; margin: 5pt 0; }
+.tagline {
+  color: #0e4661;
+  font-size: 10.5pt;
+  line-height: 1.15;
+  margin-bottom: 7pt;
+  text-align: center;
+}
+.contact { line-height: 1.2; text-align: left; }
+.contact-icon {
+  color: #156082;
+  display: inline-block;
+  font-weight: 700;
+  width: 0.2in;
+}
+.page-break { break-after: page; page-break-after: always; height: 0; }
+.page-break + h2 { margin-top: 0; }
+.justified { text-align: justify; }
+</style>
 
-## Java Backend Engineer | Spring Boot | WebFlux | Fintech
+<div class="resume-header">
+<h1>Mehedi Hasan</h1>
+<div class="tagline">Java Backend Engineer | Spring Boot | WebFlux | Fintech</div>
+<div class="contact">
+<span class="contact-icon">☎</span>+880 1621-640037 | +880 1835-233447<br>
+<span class="contact-icon">✉</span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mdmehedi03%40gmail.com">mdmehedi03@gmail.com</a><br>
+<span class="contact-icon">↗</span>LinkedIn: <a href="https://www.linkedin.com/in/mehedisoft/">https://www.linkedin.com/in/mehedisoft/</a><br>
+<span class="contact-icon">↗</span>Github: <a href="https://github.com/mehedihasan03">https://github.com/mehedihasan03</a><br>
+<span class="contact-icon">↗</span>Portfolio: <a href="https://mehedihasan03.github.io/">https://mehedihasan03.github.io/</a>
+</div>
+</div>
 
-Dhaka, Bangladesh  
-+880 1621-640037 | mdmehedi03@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/mehedisoft/) | [GitHub](https://github.com/mehedihasan03) | [Portfolio](https://mehedihasan03.github.io/)
+---
 
 ## Professional Summary
 
-Java Backend Engineer with 4+ years of experience developing, testing, and supporting banking, microfinance, and identity-verification systems. Experienced in Java, Spring Boot, Spring WebFlux, REST APIs, PostgreSQL R2DBC, Oracle, multi-tenant architecture, and JasperReports. Contributed to production platforms for agent banking, NID verification, microfinance, internet banking, and Islamic core banking. Comfortable collaborating with product, frontend, database, and quality-assurance teams throughout the software delivery lifecycle.
+<div class="justified">
+Java Backend Engineer with 4+ years of experience developing and supporting banking, fintech, microfinance, identity-verification, and internet-banking systems. Experienced in system design, software architecture, REST and reactive API development, database integration, debugging, testing, reporting, and production support. Contributed to 5+ production-grade platforms across banking, government, and financial-services domains. Skilled in Java, Spring Boot, Spring WebFlux, PostgreSQL R2DBC, Oracle, MySQL, multi-tenant architecture, JasperReports, Docker, and Angular.
+</div>
 
 ## Technical Skills
 
-- **Languages:** Java, SQL, JavaScript, TypeScript
-- **Backend:** Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, R2DBC, RESTful APIs, microservices, clean architecture
-- **Databases:** PostgreSQL, Oracle, MySQL
-- **Testing:** JUnit, Mockito, manual testing, API testing, performance testing
-- **DevOps and Tools:** Git, GitHub, GitLab, Docker, Jenkins, Trello
-- **Frontend:** Angular, Angular Material, NG-ZORRO, HTML, CSS
-- **Reporting:** JasperReports, JRXML
-- **Domain Knowledge:** Banking, fintech, agent banking, microfinance, NID verification, Islamic core banking
+- **Programming Languages:** Java, SQL, JavaScript, TypeScript
+- **Backend & Architecture:** Spring Boot, WebFlux, REST APIs, microservices, system design, software architecture
+- **Core Engineering:** Object-oriented programming, algorithm design, debugging, clean architecture
+- **Data, Reporting & Testing:** PostgreSQL, Oracle, MySQL, R2DBC, JasperReports, JUnit, Mockito
+- **Tools, DevOps & Version Control:** Git, GitHub, GitLab, Docker, Jenkins, Kubernetes, Trello
 
-## Professional Experience
+## Work Experience
 
-### Software Developer — Celloscope Limited
+### Software Developer
 
-Dhaka, Bangladesh | December 2022–Present
+**Celloscope Limited** | Jan 2025 – Present
 
-- Develop and maintain reactive and traditional Java backend services for banking, identity-verification, and microfinance platforms using Spring Boot and Spring WebFlux.
-- Implemented a multi-tenant database architecture using PostgreSQL R2DBC and Spring Boot 3 for the Microcredit Regulatory Authority's Integrated Management System.
-- Maintain core services supporting NRBCB Agent Banking, the NID Verification System, and MRA microfinance operations.
-- Build RESTful and reactive APIs for business workflows and integrations with internal and external systems.
-- Develop JasperReports and work with PostgreSQL, Oracle, and MySQL data used by operational and regulatory workflows.
-- Contribute to selected Angular features and collaborate with frontend, database, product, and QA teams to deliver and support production releases.
+- Design and optimize RESTful and reactive Java APIs for banking and financial platforms.
+- Work with multi-tenant PostgreSQL R2DBC data access, Oracle, MySQL, and Spring Boot 3.
+- Contribute to Agrani Smart Banking workflows, integrations, JasperReports, and production support.
+- Apply system design, software architecture, debugging, and performance-focused engineering.
+- Collaborate with product, frontend, database, and QA teams to deliver reliable production releases.
 
-**Selected systems:** MRA Integrated Management System, MRA NID Verification System, NRBCB Agent Banking, and Agrani Internet Banking.
+### Junior Software Developer
 
-### Assistant Software Engineer — Millennium Information Solution Limited
+**Celloscope Limited** | Dec 2022 – Dec 2024
 
-Dhaka, Bangladesh | May 2022–November 2022
+- Developed Java services for NRBCB Agent Banking, MRA NID Verification, and microfinance operations.
+- Built backend APIs, database workflows, JasperReports, and selected Angular features.
+- Applied object-oriented programming and algorithm design to backend workflows.
+- Investigated defects, validated data, and supported releases for live financial systems.
 
-- Performed functional and manual testing for the investment and loan modules of an Islamic core banking system.
-- Validated banking transactions, business rules, and system behavior against functional and Sharia-compliance requirements.
-- Investigated defects using Oracle, PL/SQL, and Toad and documented issues for resolution.
-- Collaborated with developers and business teams to verify fixes, improve system reliability, and support data-migration activities.
-- Tracked test results and defects using Trello throughout the release cycle.
+### Assistant Software Engineer
 
-## Selected Projects
+**Millennium Information Solution Limited** | May 2022 – Nov 2022
 
-### Invoice Management REST API
+- Performed functional and manual testing for Islamic core banking investment and loan modules.
+- Validated banking transactions, business rules, and Sharia-compliance requirements.
+- Investigated defects with Oracle and PL/SQL, documented results in Trello, and verified fixes with development teams.
 
-- Developed a backend API for invoice-management workflows using Java, Spring Boot, Spring Data JPA, Hibernate, and MySQL.
-- Source: [github.com/mehedihasan03/Invoice_spring_boot_api](https://github.com/mehedihasan03/Invoice_spring_boot_api)
+<div class="page-break"></div>
 
-### Invoice Management Web Application
+## Projects
 
-- Built an Angular and TypeScript frontend for an invoice-management application backed by REST APIs.
-- Source: [github.com/mehedihasan03/invoice_angular_front_end](https://github.com/mehedihasan03/invoice_angular_front_end)
+**Banking & Financial Systems:**
+
+- Agrani Smart Banking
+- Agrani Internet Banking
+- Agrani Agent Banking
+- NRBCB Agent Banking
+- Islamic Core Banking – Investment & Loan Modules
+
+**Government, Enterprise & Personal Projects:**
+
+- MRA Integrated Management System
+- MRA NID Verification System
+- AES Crypto WebFlux Service
+- Invoice Management Applications – REST API, Angular & Flutter
+- Expense Management System
+- Java Reactive & Concurrency Labs
+
+<div style="text-align: justify;"><em>Role: Backend Engineering including Requirement Analysis, REST and Reactive API Development, Multi-tenant Architecture, Database Integration, Jasper Reporting, Testing, Deployment Support, Production Support, and Cross-functional Collaboration.</em></div>
 
 ## Education
 
-### Master of Science in Computer Science and Engineering
+**Master of Science in Computer Science & Engineering**  
+Islamic University, Kushtia  
+Completed | 2025
 
-Islamic University, Kushtia | 2025
+**Master of Science in Entomology**  
+National University  
+Completed | 2019
 
-### Master of Science in Entomology
-
-National University | 2019
-
-### Bachelor of Science in Zoology
-
-National University | 2018
+**Bachelor of Science in Zoology**  
+National University  
+Completed | 2018
 
 ## Professional Training
 
-### Diploma in Enterprise Systems Analysis and Design — JEE (ESAD-JEE)
+**Diploma in Enterprise Systems Analysis & Design – JEE (ESAD-JEE)**  
+IsDB-BISEW IT Scholarship Programme, Dhaka | Dec 2020 – Apr 2022
 
-IsDB-BISEW IT Scholarship Programme, Dhaka | February 2021–March 2022
+**C# .NET**  
+Digicon Technologies Limited | Sep 2022 – Feb 2023
 
-<!--
-REVISION CHECKLIST BEFORE APPLYING:
+## Key Strengths
 
-1. Confirm that "Software Developer" is the exact current job title used by Celloscope.
-2. Confirm all project names and whether they may be disclosed publicly.
-3. Verify that JUnit, Mockito, performance testing, Jenkins, and every listed skill reflect hands-on experience.
-4. Add truthful metrics where available, such as API/service counts, integrations, transaction volume, response-time improvements, production users, reports, releases, or defects resolved.
-5. Add graduation months or exact study dates if required by the target employer.
-6. Test every LinkedIn, GitHub, portfolio, and project link before submitting.
-7. Tailor the headline, summary, skills, and first experience bullets to each job description.
--->
+- End-to-end backend ownership (Requirement → Design → Development → Testing → Support).
+- Java backend development with Spring Boot, Spring WebFlux, and reactive programming.
+- Banking and fintech domain expertise across agent banking, internet banking, and core banking.
+- Multi-tenant architecture with PostgreSQL R2DBC and Spring Boot 3.
+- System design, software architecture, microservices, clean architecture, and system integration.
+- Database integration, SQL analysis, data validation, and performance-focused development.
+- JasperReports and regulatory reporting for production financial platforms.
+- Production support, incident troubleshooting, defect investigation, and release validation.
+- Object-oriented programming, algorithm design, debugging, and cross-functional collaboration.
+- Applied security, Java concurrency, and reactive-system learning through public projects.
+- AI-assisted engineering and agentic workflow learning for developer productivity.
