@@ -57,7 +57,7 @@ hr { border: 0; border-top: 0.5pt solid #a6a6a6; margin: 5pt 0; }
 <div class="contact">
 <span class="contact-icon">☎</span>+880 1621-640037 | +880 1835-233447<br>
 <span class="contact-icon">✉</span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mdmehedi03%40gmail.com">mdmehedi03@gmail.com</a><br>
-<span class="contact-icon">↗</span>LinkedIn: <a href="https://www.linkedin.com/in/mehedisoft/">https://www.linkedin.com/in/mehedisoft/</a><br>
+<span class="contact-icon">↗</span>LinkedIn: <a href="https://www.linkedin.com/in/mehedi-hasan-medu/">https://www.linkedin.com/in/mehedi-hasan-medu/</a><br>
 <span class="contact-icon">↗</span>Github: <a href="https://github.com/mehedihasan03">https://github.com/mehedihasan03</a><br>
 <span class="contact-icon">↗</span>Portfolio: <a href="https://mehedihasan03.github.io/">https://mehedihasan03.github.io/</a>
 </div>
@@ -68,7 +68,7 @@ hr { border: 0; border-top: 0.5pt solid #a6a6a6; margin: 5pt 0; }
 ## Professional Summary
 
 <div class="justified">
-Java Backend Engineer with 4+ years of experience developing and supporting banking, fintech, microfinance, identity-verification, and internet-banking systems. Experienced in system design, software architecture, REST and reactive API development, database integration, debugging, testing, reporting, and production support. Contributed to 5+ production-grade platforms across banking, government, and financial-services domains. Skilled in Java, Spring Boot, Spring WebFlux, PostgreSQL R2DBC, Oracle, MySQL, multi-tenant architecture, JasperReports, Docker, and Angular.
+Java Backend Engineer with 4+ years of experience developing and supporting banking, fintech, microfinance, identity-verification, and internet-banking systems. Experienced in system design, software architecture, REST and reactive API development, database integration, debugging, testing, reporting, and production support. Contributed to 7+ production-grade platforms across banking, government, and financial-services domains. Skilled in Java, Spring Boot, Spring WebFlux, PostgreSQL R2DBC, Oracle, MySQL, multi-tenant architecture, JasperReports, Docker, and Angular.
 </div>
 
 ## Technical Skills
