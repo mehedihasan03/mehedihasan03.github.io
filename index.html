@@ -20,6 +20,13 @@
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 18v2h16v-2"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 5l-4 14"/></symbol>
+    <symbol id="icon-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  </svg>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner wrap">
@@ -30,7 +37,7 @@
         <a href="#experience">Experience</a>
         <a href="#about">About</a>
         <details class="resume-menu">
-          <summary>Resume <span aria-hidden="true">↓</span></summary>
+          <summary>Resume <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-download"/></svg></summary>
           <div class="resume-options">
             <a href="assets/docs/mehedi_hasan.pdf" download><strong>PDF</strong><small>Ready to share</small></a>
             <a href="assets/docs/Mehedi_Hasan_Resume.docx" download><strong>DOCX</strong><small>Editable format</small></a>
@@ -38,7 +45,7 @@
           </div>
         </details>
       </nav>
-      <a class="header-contact" href="mailto:mdmehedi03@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+      <a class="header-contact" href="mailto:mdmehedi03@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-mail"/></svg>Email me</a>
     </div>
   </header>
   <main id="main">
@@ -49,7 +56,7 @@
         <h2 class="hero-statement">Reliable backends.<br>For real-world<br><em>financial systems.</em></h2>
         <p class="intro">I help teams build banking APIs, integrate payments, and resolve production issues—bringing hands-on experience in systems where correctness matters.</p>
         <div class="actions">
-          <a class="button" href="mailto:mdmehedi03@gmail.com">Let’s discuss your project <span aria-hidden="true">↗</span></a>
+          <a class="button" href="mailto:mdmehedi03@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-mail"/></svg>Let’s discuss your project</a>
           <a class="text-link" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
         </div>
         <div class="hero-contact"><a href="mailto:mdmehedi03@gmail.com">mdmehedi03@gmail.com</a><span aria-hidden="true">·</span><a href="https://www.linkedin.com/in/mehedi-hasan-medu/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
@@ -140,9 +147,9 @@
     <section class="section capabilities wrap" aria-labelledby="capabilities-title">
       <div class="section-heading"><div><p class="eyebrow">How I can help</p><h2 id="capabilities-title">From a backend requirement<br>to a working service.</h2></div><p>The technology follows the problem. I work with both traditional Spring applications and reactive services.</p></div>
       <div class="capability-grid">
-        <article><h3>APIs &amp; integrations</h3><p>Turn business rules into maintainable services. Connect banking, payment, and identity workflows with clear validation and error handling.</p><p class="tool-line">Java · Spring Boot · MVC / WebFlux · REST</p></article>
-        <article><h3>Database platforms &amp; reporting</h3><p>Use PostgreSQL, Oracle, and MySQL in financial systems; work with Redis for request control and MongoDB in project work. Build multi-tenant data access, SQL workflows, and operational reports.</p><p class="tool-line">Data platforms: PostgreSQL · Oracle · MySQL · Redis · MongoDB<br>Data access &amp; reporting: R2DBC · JPA / Hibernate · JasperReports</p></article>
-        <article><h3>Production &amp; delivery</h3><p>Trace defects across services, investigate data issues, add targeted tests, and collaborate with QA and operations on releases.</p><p class="tool-line">JUnit · Mockito · Git · Docker · Jenkins</p></article>
+        <article><h3><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-code"/></svg>APIs &amp; integrations</h3><p>Turn business rules into maintainable services. Connect banking, payment, and identity workflows with clear validation and error handling.</p><p class="tool-line">Java · Spring Boot · MVC / WebFlux · REST</p></article>
+        <article><h3><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-database"/></svg>Database platforms &amp; reporting</h3><p>Use PostgreSQL, Oracle, and MySQL in financial systems; work with Redis for request control and MongoDB in project work. Build multi-tenant data access, SQL workflows, and operational reports.</p><p class="tool-line">Data platforms: PostgreSQL · Oracle · MySQL · Redis · MongoDB<br>Data access &amp; reporting: R2DBC · JPA / Hibernate · JasperReports</p></article>
+        <article><h3><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-shield"/></svg>Production &amp; delivery</h3><p>Trace defects across services, investigate data issues, add targeted tests, and collaborate with QA and operations on releases.</p><p class="tool-line">JUnit · Mockito · Git · Docker · Jenkins</p></article>
       </div>
     </section>
 
@@ -188,7 +195,7 @@
       </dl>
     </section>
     <section id="contact" class="contact section" aria-labelledby="contact-title">
-      <div class="wrap contact-inner"><div><p class="eyebrow">Have a backend challenge?</p><h2 id="contact-title">Let’s talk about<br>what you’re building.</h2><p>A new integration, a reporting need, or a service that needs attention.<br>Tell me about the problem and where you want to go.</p></div><div class="contact-actions"><a class="button button-light" href="mailto:mdmehedi03@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="email" href="mailto:mdmehedi03@gmail.com">mdmehedi03@gmail.com</a><a class="contact-link" href="https://www.linkedin.com/in/mehedi-hasan-medu/" target="_blank" rel="noopener noreferrer">Or connect on LinkedIn <span aria-hidden="true">↗</span></a></div></div>
+      <div class="wrap contact-inner"><div><p class="eyebrow">Have a backend challenge?</p><h2 id="contact-title">Let’s talk about<br>what you’re building.</h2><p>A new integration, a reporting need, or a service that needs attention.<br>Tell me about the problem and where you want to go.</p></div><div class="contact-actions"><a class="button button-light" href="mailto:mdmehedi03@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-mail"/></svg>Email me</a><a class="email" href="mailto:mdmehedi03@gmail.com">mdmehedi03@gmail.com</a><a class="contact-link" href="https://www.linkedin.com/in/mehedi-hasan-medu/" target="_blank" rel="noopener noreferrer">Or connect on LinkedIn <span aria-hidden="true">↗</span></a></div></div>
     </section>
   </main>
   <footer class="wrap"><p>© <span id="year">2026</span> Mehedi Hasan <span class="footer-location">· Dhaka, Bangladesh</span></p><div><a href="https://github.com/mehedihasan03" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
